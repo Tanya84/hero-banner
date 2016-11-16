@@ -1,7 +1,31 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 1.5rem;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+
 }
