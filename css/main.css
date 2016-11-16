@@ -30,7 +30,6 @@ body {
 }
 
 .img-flex {
-  width: 100%;
   display: block;
 }
 
@@ -39,6 +38,7 @@ h2 {
   text-align: left;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
+  font-size: 4rem;
 }
 
 p {
